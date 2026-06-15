@@ -29,5 +29,5 @@ The core engineering constraint of this project was a strict **No STL (Standard 
 4. Run the executable: `./6.exe`
 
 ### 👥 Author
-* **Taha Ebaad (24I-0516)**
+* **Taha Ebaad**
 * Built for Data Structures, Spring 2026.
