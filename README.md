@@ -28,6 +28,8 @@ The core engineering constraint of this project was a strict **No STL (Standard 
 3. Compile using g++ (MinGW/MSYS2): `g++ main.cpp -o 6.exe`
 4. Run the executable: `./6.exe`
 
-### 👥 Author
+## 👥 Authors
+
 * **Taha Ebaad**
-* Built for Data Structures, Spring 2026.
+  
+Built for the Data Structures course, Spring 2026.
