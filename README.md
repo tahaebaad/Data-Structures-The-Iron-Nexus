@@ -9,8 +9,9 @@ The core engineering constraint of this project was a strict **No STL (Standard 
 * **Train Registry (AVL Tree):** Manages a fleet of up to 10,000 trains using a self-balancing AVL Tree. Ensures $O(\log n)$ search time with an added LRU-1 cache for instant repeat lookups. Includes Preorder, Inorder, and Postorder tree visualizations.
 * **Coach Management (Doubly Linked List):** Models the physical structure of a train. Supports $O(1)$ front/end attachments, specific position insertions, and bidirectional traversal (Engine to Caboose). Includes an in-place reversal algorithm.
 * **Route Management (Graph):** Maps the railway network using an Adjacency Matrix. Implements **Dijkstra’s Algorithm** to calculate the shortest path between stations, alongside BFS and DFS for unreachability detection.
-* **Seating Chart (Dual-Layer Hash + BST):** * *Layer 1:* A Hash Table using Knuth Multiplicative Hashing and linear probing for $O(1)$ instant seat booking/cancellations. 
-    * *Layer 2:* A Binary Search Tree (BST) that mirrors the hash table to allow for structured, ordered display of seats.
+* **Seating Chart (Dual-Layer Hash + BST):**
+* * *Layer 1:* A Hash Table using Knuth Multiplicative Hashing and linear probing for $O(1)$ instant seat booking/cancellations. 
+* * *Layer 2:* A Binary Search Tree (BST) that mirrors the hash table to allow for structured, ordered display of seats.
 * **Operation Logs (Stack):** A custom Linked-List based stack that records all system events with timestamps for LIFO retrieval.
 
 ### 🛠️ Technical Highlights
