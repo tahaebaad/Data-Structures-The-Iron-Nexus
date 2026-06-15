@@ -31,5 +31,6 @@ The core engineering constraint of this project was a strict **No STL (Standard 
 ## 👥 Authors
 
 * **Taha Ebaad**
-  
+* 🔗 Read the detailed technical breakdown and discussion of this project on my [LinkedIn](https://www.linkedin.com/posts/taha-ebaad-819b8328b_just-wrapped-up-the-iron-nexus-a-large-scale-activity-7472380895212265472-2AZM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZ5lNUBO_-anndHWlDvE3UmJfwqGNORPsk).
+
 Built for the Data Structures course, Spring 2026.
